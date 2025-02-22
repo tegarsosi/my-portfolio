@@ -16,7 +16,7 @@ export default function Navigation() {
                         href="/"
                         className="text-xl font-bold hover:text-blue-400 transition"
                     >
-                        Tegar
+                        Tegar🏔️
                     </Link>
                     
                     <div className="flex gap-8">
