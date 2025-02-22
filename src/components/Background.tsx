@@ -12,7 +12,7 @@ const COLORS = ['#7F58AF', '#64C5EB', '#E84D8A', '#FEB326']
 export default function Background() {
     return (
         <div
-        className="absolute top-0 left-0 w-full h-full grid bg-[#050505]"
+        className="fixed top-0 left-0 w-full h-screen grid bg-[#050505] overflow-hidden"
         style={{
             gridTemplateColumns: 'repeat(auto-fill, 32px)',
             gridTemplateRows: 'repeat(auto-fill, 32px)',
