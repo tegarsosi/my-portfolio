@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  /* Define reusable component classes */
+  .nav-link {
+    @apply border-b-2 hover:text-white hover:border-blue-500 transition-colors;
+  }
+
+  /* You can create more component classes */
+  .heading-primary {
+    @apply text-4xl font-bold text-gray-100;
+  }
+
+  .heading-secondary {
+    @apply text-2xl font-semibold text-gray-200;
+  }
+
+  .text-body {
+    @apply text-gray-300;
+  }
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
