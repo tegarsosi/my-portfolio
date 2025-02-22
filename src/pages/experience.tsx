@@ -24,6 +24,8 @@ export default function Experience() {
                                 <i className="devicon-python-plain text-xl grayscale hover:grayscale-0 transition" title="Python"/>
                                 <i className="devicon-fastapi-plain text-xl grayscale hover:grayscale-0 transition" title="FastAPI"/>
                                 <i className="devicon-postgresql-plain text-xl grayscale hover:grayscale-0 transition" title="PostgreSQL"/>
+                                <i className="devicon-github-original text-xl grayscale hover:grayscale-0 transition" title="GitHub"/>
+                                <i className="devicon-docker-plain text-xl grayscale hover:grayscale-0 transition" title="Docker"/>
                             </div>
                         </div>
 
@@ -38,7 +40,8 @@ export default function Experience() {
                             <div className="flex gap-3 mt-2">
                                 <i className="devicon-python-plain text-xl grayscale hover:grayscale-0 transition" title="Python"/>
                                 <i className="devicon-pandas-plain text-xl grayscale hover:grayscale-0 transition" title="Pandas"/>
-                                <i className="devicon-tensorflow-original text-xl grayscale hover:grayscale-0 transition" title="TensorFlow"/>
+                                <i className="devicon-pytorch-original text-xl grayscale hover:grayscale-0 transition" title="PyTorch"/>
+                                <i className="devicon-github-original text-xl grayscale hover:grayscale-0 transition" title="GitHub"/>
                             </div>
                         </div>
 
