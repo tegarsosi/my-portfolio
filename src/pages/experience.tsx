@@ -6,13 +6,11 @@ export default function Experience() {
             <Background />
 
             {/* Content Wrapper */}
-            <div className="relative z-20 flex flex-col md:flex-row items-start gap-10 max-w-5xl w-full">
-
-                {/* Right Section - About Content */}
-                <div className="flex flex-col">
-
+            <div className="relative z-20 flex flex-col md:flex-row items-center justify-center gap-10 max-w-7xl w-full mx-auto">
+                {/* Middle Section - Experience Content */}
+                <div className="w-full max-w-3xl">
                     {/* Experience Section */}
-                    <section className="mt-8">
+                    <section>
                         <h2 className="text-2xl font-semibold">Experience</h2>
                         
                         {/* Current Role */}
