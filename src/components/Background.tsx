@@ -7,7 +7,7 @@
 
 import { useState } from 'react'
 
-const COLORS = ['#FFD980', '#FF8480', '#81FF80', '#80EAFF']
+const COLORS = ['#7F58AF', '#64C5EB', '#E84D8A', '#FEB326']
 
 export default function Background() {
     return (

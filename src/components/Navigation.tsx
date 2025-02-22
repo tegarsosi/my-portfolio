@@ -33,6 +33,12 @@ export default function Navigation() {
                             About
                         </Link>
                         <Link 
+                            href="/experience"
+                            className={`nav-link ${isActive('/experience')}`}
+                        >
+                            Experience
+                        </Link>
+                        <Link 
                             href="/projects"
                             className={`nav-link ${isActive('/projects')}`}
                         >
