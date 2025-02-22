@@ -14,24 +14,12 @@ export default function Navigation() {
                 <div className="flex items-center justify-between text-gray-200">
                     <Link 
                         href="/"
-                        className="text-xl font-bold hover:text-blue-400 transition"
+                        className={`nav-link ${isActive('/')}`}
                     >
-                        Tegar🏔️
+                        Home 🏔️
                     </Link>
                     
                     <div className="flex gap-8">
-                        <Link 
-                            href="/"
-                            className={`nav-link ${isActive('/')}`}
-                        >
-                            Home
-                        </Link>
-                        <Link 
-                            href="/about"
-                            className={`nav-link ${isActive('/about')}`}
-                        >
-                            About
-                        </Link>
                         <Link 
                             href="/experience"
                             className={`nav-link ${isActive('/experience')}`}
@@ -43,6 +31,12 @@ export default function Navigation() {
                             className={`nav-link ${isActive('/projects')}`}
                         >
                             Projects
+                        </Link>
+                        <Link 
+                            href="/about"
+                            className={`nav-link ${isActive('/about')}`}
+                        >
+                            About
                         </Link>
                         <Link 
                             href="/contact"

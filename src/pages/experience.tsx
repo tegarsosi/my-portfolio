@@ -6,8 +6,7 @@ export default function Experience() {
             <Background />
 
             {/* Content Wrapper */}
-            <div className="relative z-20 flex flex-col md:flex-row items-center justify-center gap-10 max-w-7xl w-full mx-auto">
-                {/* Middle Section - Experience Content */}
+            <div className="relative z-20 flex flex-col md:flex-row items-center justify-center gap-10 max-w-4xl w-full mx-auto bg-slate-800/20 rounded-lg p-6">
                 <div className="w-full max-w-3xl">
                     {/* Experience Section */}
                     <section>
@@ -59,18 +58,36 @@ export default function Experience() {
                         </div>
                     </section>
 
+                    <section className="mt-8">
+                        <h2 className="text-2xl font-semibold">Education</h2>
+                        
+                        {/* Current Role */}
+                        <div className="mt-4">
+                            <h3 className="text-xl font-semibold">B.Sc. in Mechatronics, Hamburg University of Applied Sciences</h3>
+                            <p className="text-gray-400">March 2018 - September 2023, Hamburg, Germany</p>
+                            <p className="mt-2 text-gray-300">
+                                Thesis: <i>Predicting Professional Experience Requirements from Job Advertisements Using Multilingual Transformers Based NLP Models</i>
+                            </p>
+                            <p className="mt-2 text-gray-300 text-sm">
+                                GPA: 2.1
+                            </p>
+                        </div>
+                    </section>
+
                     {/* Updated CV Button */}
-                    <a 
-                        href="/Tegar_CV.pdf" 
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="mt-8 inline-flex items-center gap-2 px-6 py-3 bg-blue-500 rounded-md text-white font-semibold hover:bg-blue-600 transition"
-                    >
-                        Click here to see the full resume
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                            <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"/>
-                        </svg>
-                    </a>
+                    <div className="pointer-events-auto inline-block">
+                        <a 
+                            href="/Tegar_CV.pdf" 
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="mt-8 inline-flex items-center gap-2 px-6 py-3 bg-blue-500 rounded-md text-white font-semibold hover:bg-blue-600 transition"
+                        >
+                            Click here to see the full resume
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"/>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
         </main>

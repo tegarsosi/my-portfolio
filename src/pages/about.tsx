@@ -6,8 +6,9 @@ export default function About() {
         { name: "Python", icon: "devicon-python-plain" },
         { name: "FastAPI", icon: "devicon-fastapi-plain" },
         { name: "PostgreSQL", icon: "devicon-postgresql-plain" },
-        { name: "Pandas", icon: "devicon-pandas-plain" },
         { name: "JavaScript", icon: "devicon-javascript-plain" },
+        { name: "GitHub", icon: "devicon-github-original" },
+        { name: "Docker", icon: "devicon-docker-plain" },
     ];
 
     return (
@@ -15,28 +16,28 @@ export default function About() {
             <Background />
 
             {/* Content Wrapper */}
-            <div className="relative z-20 flex flex-col md:flex-row items-center justify-center gap-10 max-w-7xl w-full mx-auto">
+            <div className="relative z-20 flex flex-col md:flex-row items-center justify-center gap-10 max-w-4xl w-full mx-auto bg-slate-800/20 rounded-lg p-6">
                 <div className="w-full max-w-3xl">
                     <div className="flex flex-col md:flex-row items-start gap-10">
                         {/* Left Section - Profile Image */}
-                        <div className="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-2 border-gray-700">
+                        <div className="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden flex-shrink-0">
                             <Image 
                                 src="/profile.jpg" 
                                 alt="Tegar's Profile" 
                                 width={192} 
                                 height={192} 
-                                className="w-full h-full object-cover"
+                                className="w-full h-full object-cover rounded-full"
                             />
                         </div>
 
                         {/* Right Section - About Content */}
                         <div className="flex flex-col">
-                            <h1 className="text-4xl font-bold">Hey, I&apos;m Tegar Everest</h1>
+                            <h1 className="text-2xl font-bold">Hey, I&apos;m Tegar Everest🏔️</h1>
                             <p className="mt-3 text-lg text-gray-300 leading-relaxed max-w-2xl">
-                                Let&apos;s be honest, I&apos;m not sure what to write here. I&apos;m not a tech enthusiast, I&apos;m not a computer geek. People tend to exaggerate their passion for tech nowadays, but I like to keep it real. I wouldn&apos;t call myself passionate about tech, since passion is a bit overrated these days, but I do enjoy coding. It&apos;s one of those things I can do for hours without feeling drained.
+                                I&apos;m a Python Developer & AI Software Engineer who builds AI-powered applications and scalable backend systems. I specialize in FastAPI, Tortoise ORM, LangChain, and fine-tuning small language models.
                             </p>
                             <p className="mt-3 text-lg text-gray-300 leading-relaxed max-w-2xl">
-                                Feel free to look around my website, or whatever.
+                                I enjoy solving complex problems, optimizing workflows, and making things work efficiently. Whether it&apos;s backend development, AI model integration, or system architecture, I focus on writing clean, maintainable, and high-performance code.
                             </p>
 
                             {/* Tech Stack */}
@@ -57,7 +58,7 @@ export default function About() {
                             <section className="mt-6">
                                 <h2 className="text-2xl font-semibold">Hobbies & Interests</h2>
                                 <p className="mt-3 text-gray-300">
-                                    Badminton - Table Tennis - Reading - Piano - Anime/Manga - Non-fiction - Kpop
+                                    Badminton - Table Tennis - Reading (Non-fiction, Psychology, Self-help) - Piano - Photography - Anime/Manga - Kpop
                                 </p>
                             </section>
 

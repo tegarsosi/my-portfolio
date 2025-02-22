@@ -13,8 +13,15 @@ export default function Home() {
         <Background />
         {/* Content */}
         <div className="relative z-10 text-center">
-          <h1 className="text-4xl font-bold">Portfolio</h1>
-          <p className="mt-4 text-lg">Python Developer | AI Engineer | Backend Developer</p>
+          <h1 className="text-4xl font-bold">Tegar Everest</h1>
+
+          {/* Short Introduction */}
+          <p className="mt-2 text-lg text-gray-300">
+            Engineering AI-driven solutions with clean, maintainable systems.
+          </p>
+
+          <p className="mt-4 text-lg">Python Developer | AI Software Engineer | Backend Developer</p>
+          
           <Link 
             href="/projects" 
             className="inline-block mt-4 px-6 py-3 bg-blue-500 rounded-md text-white font-semibold hover:bg-blue-600 transition"

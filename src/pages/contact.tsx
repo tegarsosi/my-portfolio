@@ -69,7 +69,7 @@ export default function Contact() {
     return (
         <main className="relative flex min-h-screen flex-col items-start justify-center text-white p-8 md:p-16">
             <Background />
-            <div className="relative z-20 flex flex-col items-center justify-center gap-10 max-w-7xl w-full mx-auto">
+            <div className="relative z-20 flex flex-col items-center justify-center gap-10 max-w-4xl w-full mx-auto bg-slate-800/20 rounded-lg p-6">
                 <div className="w-full max-w-3xl">
                     <h1 className="text-4xl font-bold mb-4">Contact Me</h1>
                     
@@ -83,7 +83,7 @@ export default function Contact() {
                     </div>
 
                     <p className="mt-6 text-gray-400 text-sm">
-                        I usually respond within a day or two.
+                        Response time: 1-2 days
                     </p>
                 </div>
             </div>
