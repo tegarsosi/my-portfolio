@@ -13,7 +13,7 @@ export default function Home() {
         <Background />
         {/* Content */}
         <div className="relative z-10 text-center">
-          <h1 className="text-4xl font-bold">Portofolio</h1>
+          <h1 className="text-4xl font-bold">Portfolio</h1>
           <p className="mt-4 text-lg">Python Developer | AI Engineer | Backend Developer</p>
           <Link 
             href="/projects" 

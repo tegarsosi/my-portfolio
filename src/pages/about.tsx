@@ -31,7 +31,7 @@ export default function About() {
 
                         {/* Right Section - About Content */}
                         <div className="flex flex-col">
-                            <h1 className="text-4xl font-bold">Hey, I&apos;m Tegar</h1>
+                            <h1 className="text-4xl font-bold">Hey, I&apos;m Tegar Everest</h1>
                             <p className="mt-3 text-lg text-gray-300 leading-relaxed max-w-2xl">
                                 Let&apos;s be honest, I&apos;m not sure what to write here. I&apos;m not a tech enthusiast, I&apos;m not a computer geek. People tend to exaggerate their passion for tech nowadays, but I like to keep it real. I wouldn&apos;t call myself passionate about tech, since passion is a bit overrated these days, but I do enjoy coding. It&apos;s one of those things I can do for hours without feeling drained.
                             </p>

@@ -26,7 +26,7 @@ export default function Contact() {
         {
             name: "Instagram",
             icon: "fab fa-instagram",
-            value: "@tegarsosi",
+            value: "@tegarsosi_",
             href: "https://instagram.com/tegarsosi_"
         },
         {
