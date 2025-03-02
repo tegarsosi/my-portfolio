@@ -16,7 +16,7 @@ export default function Contact() {
             {/* Content Container */}
             <div className="relative z-20 flex flex-col items-center text-center bg-gray-800/20 p-6 rounded-lg shadow-lg">
                 <h1 className="text-3xl font-bold mb-4">Get in Touch</h1>
-                <p className="text-gray-300 mb-6">Let's connect.</p>
+                <p className="text-gray-300 mb-6">Let&apos;s connect.</p>
 
                 {/* Contact Icons */}
                 <div className="flex gap-6">

@@ -36,7 +36,7 @@ export default function Home() {
           
           {/* Quote Section */}
           <blockquote className="mt-6 mb-6 italic text-gray-300">
-            "Engineering AI-driven solutions with clean, maintainable systems."
+            &quot;Engineering AI-driven solutions with clean, maintainable systems.&quot;
           </blockquote>
           
           <Link 
