@@ -15,7 +15,7 @@ export default function Experience() {
                         {/* Current Role */}
                         <div className="mt-4">
                             <h3 className="text-xl font-semibold">AI Software Engineer, Paul&apos;s Job GmbH</h3>
-                            <p className="text-gray-400">September 2023 - present, Berlin, Germany</p>
+                            <p className="text-gray-400">September 2023 - September 2025, Berlin, Germany</p>
                             <p className="mt-2 text-gray-300">
                                 Building AI-powered applications and scalable backend systems. Specializing in AI agents development
                                 and implementing topic-modeling algorithms for chat analysis.
@@ -70,9 +70,6 @@ export default function Experience() {
                             <p className="text-gray-400">March 2018 - September 2023, Hamburg, Germany</p>
                             <p className="mt-2 text-gray-300">
                                 Thesis: <i>Predicting Professional Experience Requirements from Job Advertisements Using Multilingual Transformers Based NLP Models</i>
-                            </p>
-                            <p className="mt-2 text-gray-300 text-sm">
-                                GPA: 2.1
                             </p>
                         </div>
                     </section>

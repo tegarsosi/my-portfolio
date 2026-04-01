@@ -1,22 +1,65 @@
 import Background from "@/components/Background";
 
+const projects = [
+    {
+      title: "Weather API Proxy",
+      desc: "FastAPI + Redis. Features cache-aside pattern and 1-hour TTL.",
+      link: "https://github.com/tegarsosi/weather-api",
+      tags: ["FastAPI", "Redis", "Python"]
+    },
+    {
+      title: "Expense Tracker",
+      desc: "Backend service for financial management and transaction tracking.",
+      link: "https://github.com/tegarsosi/expense-tracker",
+      tags: ["Python", "SQLite"]
+    },
+    {
+      title: "GitHub Activity CLI",
+      desc: "CLI tool for real-time monitoring of user repository activity.",
+      link: "https://github.com/tegarsosi/github-user-activity",
+      tags: ["CLI", "Python"]
+    }
+  ];
+
 export default function Projects() {
     return (
-        <main className="relative flex min-h-screen flex-col items-start justify-center text-white p-8 md:p-16">
-            <Background />
-            <div className="relative z-20 flex flex-col items-center justify-center gap-10 max-w-7xl w-full mx-auto text-center">
-                <div className="w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold mb-4">Projects</h1>
-                    <div className="flex flex-col items-center gap-4">
-                        <svg className="animate-spin h-8 w-8 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                            <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                            <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                        </svg>
-                        <p className="text-xl text-gray-300">Page Under Construction</p>
-                        <p className="text-gray-400">Coming soon with exciting projects!</p>
-                    </div>
+      <main className="relative flex min-h-screen flex-col items-center justify-start text-white p-8 pt-32">
+        {/* Background component stays here */}
+        <Background />
+        
+        <div className="relative z-20 w-full max-w-6xl">
+          <h1 className="text-6xl font-black mb-16 text-center tracking-tighter italic uppercase">
+            Projects
+          </h1>
+  
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {projects.map((p, i) => (
+              <a 
+                key={i} 
+                href={p.link} 
+                target="_blank" 
+                className="block group relative p-1 rounded-xl transition-all duration-500 hover:scale-[1.02]"
+              >
+                {/* This is the card body */}
+                <div className="h-full p-6 rounded-xl bg-black/40 border border-white/10 backdrop-blur-md group-hover:border-blue-500/50 transition-colors">
+                  <h3 className="text-xl font-bold mb-2 group-hover:text-blue-400">
+                    {p.title}
+                  </h3>
+                  <p className="text-gray-400 text-sm mb-4">
+                    {p.desc}
+                  </p>
+                  <div className="flex gap-2">
+                    {p.tags.map(tag => (
+                      <span key={tag} className="text-[10px] uppercase tracking-widest px-2 py-1 bg-white/5 border border-white/10 rounded">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
                 </div>
-            </div>
-        </main>
+              </a>
+            ))}
+          </div>
+        </div>
+      </main>
     );
-} 
+  } 

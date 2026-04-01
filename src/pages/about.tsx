@@ -58,7 +58,7 @@ export default function About() {
                             <section className="mt-6">
                                 <h2 className="text-2xl font-semibold">Hobbies & Interests</h2>
                                 <p className="mt-3 text-gray-300">
-                                    Badminton - Table Tennis - Reading (Non-fiction, Psychology, Self-help) - Piano - Photography - Anime/Manga - Kpop
+                                    Running - Reading (Non-fiction, Psychology, Self-help) - Photography - Anime/Manga - Kpop
                                 </p>
                             </section>
 
