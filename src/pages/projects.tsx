@@ -8,10 +8,16 @@ const projects = [
       tags: ["FastAPI", "Redis", "Python"]
     },
     {
-      title: "Expense Tracker",
-      desc: "Backend service for financial management and transaction tracking.",
+        title: "Personal Blog",
+        desc: "A minimalist personal blog engine built with FastAPI and structured JSON file-system storage.",
+        link: "https://github.com/tegarsosi/personal-blog",
+        tags: ["FastAPI", "CRUD", "Python", "Basic HTTP Auth"]
+    },
+    {
+      title: "CLI Expense Tracker",
+      desc: "A simple CLI project for financial management and transaction tracking.",
       link: "https://github.com/tegarsosi/expense-tracker",
-      tags: ["Python", "SQLite"]
+      tags: ["CLI", "Python"]
     },
     {
       title: "GitHub Activity CLI",
@@ -28,7 +34,7 @@ export default function Projects() {
         <Background />
         
         <div className="relative z-20 w-full max-w-6xl">
-          <h1 className="text-6xl font-black mb-16 text-center tracking-tighter italic uppercase">
+          <h1 className="text-2xl font-semibold text-center">
             Projects
           </h1>
   
