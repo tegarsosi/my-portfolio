@@ -24,6 +24,12 @@ const projects = [
       desc: "CLI tool for real-time monitoring of user repository activity.",
       link: "https://github.com/tegarsosi/github-user-activity",
       tags: ["CLI", "Python"]
+    },
+    {
+      title: "Resume Generator",
+      desc: "A simple repository to generate and convert resume from .md to .pdf",
+      link: "https://github.com/tegarsosi/resume-generator",
+      tags: ["CI/CD", "Github Action"]
     }
   ];
 
